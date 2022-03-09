@@ -1,3 +1,5 @@
+ <p align="justify">
+
 # LEA_LabEstatisticaAplicada
 Códigos da matéria de LABORATÓRIO EM ESTATÍSTICA APLICADA da graduação em Estatística da UFSCar.
 
@@ -15,3 +17,14 @@ Colocar o código e escrever
 - Não Hierárquico: Kmeans;
 - Medidas de avaliação (maioria do pacote NbClust do R);
 - Análise de Componentes Principais para caracterização do melhor grupo;
+
+
+## Projeto 2 
+
+- Descritiva 
+  - Teste qui-quadrado, teste exato de fisher, teste qui-quadrado ordinal);
+  - Análise Fatorial de Correspondência Múltipla
+- Modelos de link cumulativos
+  - Regressão ordinal (logito, probito, cloglog, aranda, log-gama)
+  - Teste para proporcionalidade e escala
+  - Análise de resíduos (surrogate residuals)
