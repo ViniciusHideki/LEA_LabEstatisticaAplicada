@@ -18,7 +18,10 @@ Colocar o código e escrever
 - Medidas de avaliação (maioria do pacote NbClust do R);
 - Análise de Componentes Principais para caracterização do melhor grupo;
 
+## Atividade 2 ()
+Colocar o código e escrever
 
+ 
 ## Projeto 2 
 
 - Descritiva 
