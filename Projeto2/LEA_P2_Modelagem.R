@@ -61,13 +61,17 @@ dados_m = melt(dados,
 
 dados_geral = data.frame()
 
+
 for(i in 1:nrow(dados_m)){
-  for(j in 1:dados_m[i,5]){
-    dados_geral = rbind(dados_geral,
-                        dados_m[i,1:4])
-    
+  if(dados_m[i,5]!=0){
+    for(j in 1:dados_m[i,5]){
+      dados_geral = rbind(dados_geral,
+                          dados_m[i,1:4])
+      
+    }
   }
 }
+
 
 names(dados_geral) = 
   c("PoluicaoAr",
@@ -94,6 +98,8 @@ dados_geral$Sintoma <-
   factor(dados_geral$Sintoma,
          ordered = T)
 
+
+xtable(dados_geral[c(1:4,1400:1403,2087:2089),],)
 
 #############################################
 # Modelos completos e AIC
@@ -256,6 +262,9 @@ coef_geral1.1 =
 
 xtable(coef_geral1.1)
 
+
+lista_mod1.1[[1]]
+
 #####
 # Para o latex
 ####
@@ -267,6 +276,7 @@ xtable(coef_geral1.1)
 
 nominal_test(lista_mod1.1[[1]])
 nominal_test(lista_mod1.1[[2]])
+
 rownames(nominal_test(lista_mod1.1[[2]]))[-1]
 
 cbind(rownames(nominal_test(lista_mod1.1[[2]]))[-1],
@@ -284,6 +294,8 @@ xtable(cbind(rownames(scale_test(lista_mod1.1[[2]]))[-1],
              round(cbind(scale_test(lista_mod1.1[[1]])[-1,5],
                          scale_test(lista_mod1.1[[2]])[-1,5]),digits=2)))
 
+scale_test(mod_1.1.1.1)
+
 mod_1.1.1.1 = clm(Sintoma~PoluicaoTrab,
                   nominal=~Fuma,
                   data=dados_geral,
@@ -298,12 +310,12 @@ mod_1.1.2 = lista_mod1.1[[2]]
 
 
 
+AIC(mod_1.1.1.1)
 
 
 
 
-
-
+BIC(mod_1.1.1.1)
 #############################################
 # Residuos
 #############################################

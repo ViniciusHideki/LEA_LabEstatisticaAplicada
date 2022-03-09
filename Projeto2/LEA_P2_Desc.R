@@ -48,10 +48,12 @@ dados_m = melt(dados,
 dados_geral = data.frame()
 
 for(i in 1:nrow(dados_m)){
-  for(j in 1:dados_m[i,5]){
-    dados_geral = rbind(dados_geral,
-                        dados_m[i,1:4])
-    
+  if(dados_m[i,5]!=0){
+    for(j in 1:dados_m[i,5]){
+      dados_geral = rbind(dados_geral,
+                          dados_m[i,1:4])
+      
+    }
   }
 }
 
@@ -327,6 +329,7 @@ mat_coef_covariaveis=
                              dados_geral$Fuma)),
         calc_coef_corr(table(dados_geral$PoluicaoTrab,
                              dados_geral$Fuma)))
+
 
 mat_coef_covariaveis2 = mat_coef_covariaveis[c(1,2),-c(2,4,6)]
 mat_coef_covariaveis2
