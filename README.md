@@ -9,7 +9,19 @@ Códigos da matéria de LABORATÓRIO EM ESTATÍSTICA APLICADA da graduação em 
 ## Atividade 1 (28/01/2022)
 Colocar o código e escrever
 
-## Projeto 1 (17/02/2022)
+
+
+## Atividade 2 ()
+Colocar o código e escrever
+ 
+ ## Atividade 3 ()
+Colocar o código e escrever
+ 
+## Atividade 4 
+- Descritiva;
+- Análise de sobrevivência com fragilidade; 
+ 
+ ## Projeto 1 (17/02/2022)
 
 - Descritiva;
 - Análise de agrupamento;
@@ -17,10 +29,6 @@ Colocar o código e escrever
 - Não Hierárquico: Kmeans;
 - Medidas de avaliação (maioria do pacote NbClust do R);
 - Análise de Componentes Principais para caracterização do melhor grupo;
-
-## Atividade 2 ()
-Colocar o código e escrever
-
  
 ## Projeto 2 
 
@@ -31,3 +39,7 @@ Colocar o código e escrever
   - Regressão ordinal (logito, probito, cloglog, aranda, log-gama)
   - Teste para proporcionalidade e escala
   - Análise de resíduos (surrogate residuals)
+ 
+ 
+ 
+ 
