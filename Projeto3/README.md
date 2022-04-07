@@ -16,7 +16,18 @@ Descritiva da base de dados do Bloco 4
   - Gráfico de Barras
   - Mapas (UFs do Brasil)
  
-## LEA_P3_Bloco4_Desc_RH
+## LEA_P3_Bloco4_Desc_RH.R
   
 Descritiva da base de dados do RH
   - Gráfico de Barras
+  
+  
+## Dados.xlsx
+ 
+Base de dados de todos os 6 blocos
+  - Cada linha é um município
+  
+## Dados_RH.xlsx
+ 
+Base de dados de todos os indiviíduos das unidades de RH
+  - Cada linha é um indivíduo (trabalhador da unidade de um município)
