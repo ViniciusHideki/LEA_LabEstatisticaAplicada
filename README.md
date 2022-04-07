@@ -41,5 +41,11 @@ Colocar o código e escrever
   - Análise de resíduos (surrogate residuals)
  
  
- 
- 
+ ## Projeto 3
+
+- Descritiva 
+  - Gráfico de Barras e Mapas (UFs do Brasil);
+- Análise Fatorial de Correspondência Múltipla
+  - Representatividade (cos2);
+  - Plano fatorial
+  - Variáveis suplementares
